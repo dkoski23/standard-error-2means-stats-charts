@@ -5,3 +5,7 @@ This function takes in two columns of data, cleans the data so that only numeric
 The next section runs a statistical z-test and shows the p-value (basically evaluating the strength of the evidence for a difference in means). It then calculates a 95% confidence interval for the difference between means. If the p-value (the odds of getting this result if the means are roughly equivalent) indicates that they are not equivalent, and 0 does not lie within the confidence interval, than the difference is unlikely to be equivalent.
 
 Summary statistics tables are then created for each column of data. Finally, the data is combined to make a box and whisker plot, violin plot, line plot, and overlapping distribution plot, which can provide useful information about the data.
+
+Outside of the function, I also generate two columns with random numbers and run the function on them as a test. 
+
+PS: the imports are included in the function in case someone want to copy just the function itself. However, they will need to be run before and outside of the function for it to work.
